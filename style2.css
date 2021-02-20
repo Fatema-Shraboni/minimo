@@ -1,0 +1,89 @@
+/*font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;*/
+/*common start*/
+ body{
+ 	margin: 0;
+ 	padding: 0;
+ 	font-family: 'Playfair Display', serif;
+ 	font-size: 16px;
+ 	font-weight: 400;
+ 	color: #626262;
+ }
+/*common end*/
+/*header start*/
+
+header{
+	padding: 20px 0;
+}
+.container{
+	overflow: hidden;
+	margin: 0 auto;
+	width: 90%;
+	/*border: 1px solid red;*/
+}
+.logo{
+	margin-top: 14px;
+	float: left;
+	width: 13%;
+	/*border: 1px solid black;*/
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	float: right;
+	width: 70%;
+	/*border: 1px solid black;*/
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	margin: 0 50px;
+	padding: 5px;
+	display: inline-block;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	border: 1px solid transparent;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262;
+}
+/*header end*/
+/*banner start*/
+section{
+	margin: 0 auto;
+	width: 90%;
+}
+.banner{}
+.banner img{}
+/*banner end*/
+/*content start*/
+.container2{
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+.wrapper{
+    float: left;
+	width: 50%;
+}
+.h-3{
+ font-family: 'Ubuntu', sans-serif;
+ color: #b4ad9e;
+}
+.cc2{
+	font-family: 'Ubuntu', sans-serif;
+	color: #b4ad9e;
+}
+.wrapper1{
+ float: left;
+ width: 50%;
+}
